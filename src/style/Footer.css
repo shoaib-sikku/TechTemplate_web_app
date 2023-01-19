@@ -1,0 +1,17 @@
+footer {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  color: black;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer div h2 {
+  color: #5853ff;
+}
